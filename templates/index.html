@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fake Note Detection</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<h1 class="text-center">Fake Bank Notes Detection</h1>
+	<div style="margin-top: 10%">
+		<form class="text-center" action="/predict" method="post">
+			<ul style="list-style-type: none;">
+				<li>
+					<label for="variance">Variance:</label><br>
+		  			<input type="text" id="variance" name="variance" value=""><br>
+		  		</li>
+				<li>
+					<label for="skewness">Skewness:</label><br>
+		  			<input type="text" id="skewness" name="skewness" value=""><br>
+				</li>
+				<li>
+					<label for="curtosis">Curtosis:</label><br>
+		  			<input type="text" id="curtosis" name="curtosis" value=""><br>
+				</li>
+				<li>
+					<label for="entropy">Entropy:</label><br>
+		  			<input type="text" id="entropy" name="entropy" value=""><br>
+				</li>
+				<li><input type="submit" value="Submit" class="btn btn-primary mt-3"></li>
+			</ul>
+		</form>
+	</div>
+	<br>
+	{% if prediction %}
+	<div style="text-align: center;">
+		<p class="text-center">{{prediction}}</p>
+	</div>
+	{% endif %}
+</body>
+</html>
