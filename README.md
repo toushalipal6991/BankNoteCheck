@@ -7,7 +7,9 @@
 :round_pushpin: Production URL for availing this app :arrow_right: [Fake Note Detection](http://ec2-3-22-130-255.us-east-2.compute.amazonaws.com:8080/) (Note: This URL can only be availed if I connect to my AWS EC2 instance)
 
 ## Aim of this Project
-This project aims to classify Counterfeit and Non-Counterfeit Bank Notes using Machine Learning techniques.
+- This project aims to classify Counterfeit and Non-Counterfeit Bank Notes using Machine Learning techniques.
+- This project was also *Containerized Using Docker*.
+- *Deployment* was done using *Flask API on an AWS EC2 instance*.
 
 ## Datasets:-
 - Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images.
