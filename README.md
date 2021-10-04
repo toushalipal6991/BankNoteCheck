@@ -33,6 +33,7 @@
 - A simple web-app has been built using this model (as shown in the Demo) and ***Flask API and Containerized using Docker***.
 - This web-app has also been ***Deployed into Production using Flask API on an AWS EC2 instance***.
 - Please refer my documentation [Flask_Docker_AWS_Procedures](https://github.com/toushalipal6991/BankNoteCheck/blob/master/Flask_Docker_AWS_Procedures.docx) to see how I deployed and containerized.
+- Using this web-app, you can enter variance,skewness,curtosis and entropy features extracted by you and the app will tell you if the Note is fake or genuine.
 
 ## :file_folder: Libraries Used
 :crayon: matplotlib :crayon: seaborn :crayon: numpy :crayon: pandas :crayon: prettytable :crayon: Flask
