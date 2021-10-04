@@ -21,9 +21,9 @@
   * Skewness
   * Curtosis
   * Entropy
-- EDA :arrow_right: After performing EDA on this dataset, it was easy to conclude that the features :arrow_right: Variance and Skewness are the most important features which will help us create a clear distinction between fake and genuine notes. For detailed analysis done via EDA, please refer the BankNoteAuth.ipynb file.
+- EDA :arrow_right: After performing EDA on this dataset, it was easy to conclude that the features :arrow_right: Variance and Skewness are the most important features which will help us create a clear distinction between fake and genuine notes. For detailed analysis done via EDA, please refer the [BankNoteAuth.ipynb](https://github.com/toushalipal6991/BankNoteCheck/blob/master/BankNoteAuth.ipynb) file.
 - Train-Test split: The dataset was split into 70(train):30(test) ratio. No cross-validation set was created since the dataset is very small. It contains only 1372 data points.
-- Data Pre-processing :arrow_right: The features were simply Standardardized.
+- Data Pre-processing :arrow_right: The features were simply Standardized.
 - Choosing the Machine Learning models :arrow_right: 3 different ML models were used for analysis and all 3 gave very good results.
 - Scoring used :arrow_right: was f1-score. Below table displays all 3 models and the f1-scores obtained:-
 ![Table](https://github.com/toushalipal6991/BankNoteCheck/blob/master/f1-score-table.PNG)
