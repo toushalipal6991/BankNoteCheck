@@ -13,6 +13,9 @@ scaler = StandardScaler().fit(train_data)
 # loading the model
 pickle_in=open("bank_note_classifier.pkl","rb")
 classifier = pickle.load(pickle_in)
+# loading the standard scaler that was fit on train data before training the model
+scaler = open("std_scaler.pkl","rb")
+scaler = pickle.load(scaler)
 
 @app.route("/", methods=['GET'])
 def welcome():
@@ -32,8 +35,8 @@ def predict_note_auth():
 		result="Beware!! This note is FAKE!"
 	else:
 		result="This note is not counterfeit :)"
-	return render_template('index.html',prediction=result)
+	return render_template('index.html',prediction=result,imageloc="IMG20211004183819.jpg")
 
 
 if __name__=="__main__":
-	app.run(host='0.0.0.0',port=8000)
+	app.run(host='0.0.0.0',port=8080)
