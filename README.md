@@ -1,4 +1,4 @@
-# Machine Learning END-TO-END Project to Classify Bank :dollar: *Counterfeit* VS *Non-Counterfeit* Notes :dollar:
+# Machine Learning END-TO-END Project Using Flask API, Docker & AWS to Classify Bank :dollar: *Counterfeit* VS *Non-Counterfeit* Notes :dollar:
 
 ## :cinema: Demo :point_down:
 
