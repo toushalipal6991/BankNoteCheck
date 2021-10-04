@@ -28,8 +28,11 @@
 - Scoring used :arrow_right: was f1-score. Below table displays all 3 models and the f1-scores obtained:-
 ![Table](https://github.com/toushalipal6991/BankNoteCheck/blob/master/f1-score-table.PNG)
 - **Support Vector Machine** resulted the highest f1-score of **1.0**.
+
+## Deployment using Flask API and AWS Containerization using Docker
 - A simple web-app has been built using this model (as shown in the Demo) and ***Flask API and Containerized using Docker***.
 - This web-app has also been ***Deployed into Production using Flask API on an AWS EC2 instance***.
+- Please refer my documentation [Flask_Docker_AWS_Procedures](https://github.com/toushalipal6991/BankNoteCheck/blob/master/Flask_Docker_AWS_Procedures.docx) to see how I deployed and containerized.
 
 ## :file_folder: Libraries Used
 :crayon: matplotlib :crayon: seaborn :crayon: numpy :crayon: pandas :crayon: prettytable :crayon: Flask
