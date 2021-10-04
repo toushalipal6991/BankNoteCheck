@@ -6,10 +6,6 @@ from sklearn.preprocessing import StandardScaler
 
 app=Flask(__name__)
 
-#reading the train csv file in order to standardize the inputs
-train_data = pd.read_csv("X_train.csv")
-scaler = StandardScaler().fit(train_data)
-
 # loading the model
 pickle_in=open("bank_note_classifier.pkl","rb")
 classifier = pickle.load(pickle_in)
@@ -35,7 +31,7 @@ def predict_note_auth():
 		result="Beware!! This note is FAKE!"
 	else:
 		result="This note is not counterfeit :)"
-	return render_template('index.html',prediction=result,imageloc="IMG20211004183819.jpg")
+	return render_template('index.html',prediction=result)
 
 
 if __name__=="__main__":
