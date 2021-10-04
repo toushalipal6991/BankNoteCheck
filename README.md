@@ -26,7 +26,10 @@
 - Data Pre-processing :arrow_right: The features were simply Standardardized.
 - Choosing the Machine Learning models :arrow_right: 3 different ML models were used for analysis and all 3 gave very good results.
 - Scoring used :arrow_right: was f1-score. Below table displays all 3 models and the f1-scores obtained:-
-![Table](https://github.com/toushalipal6991/BrainTumor_Detection/blob/master/AccuracyTable.PNG)
+![Table](https://github.com/toushalipal6991/BankNoteCheck/blob/master/f1-score-table.PNG)
+- **Support Vector Machine** resulted the highest f1-score of **1.0**.
+- A simple web-app has been built using this model (as shown in the Demo) and ***Flask API and Containerized using Docker***.
+- This web-app has also been ***Deployed into Production using Flask API on an AWS EC2 instance***.
 
 
 
