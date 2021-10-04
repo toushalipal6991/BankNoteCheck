@@ -31,21 +31,11 @@
 - A simple web-app has been built using this model (as shown in the Demo) and ***Flask API and Containerized using Docker***.
 - This web-app has also been ***Deployed into Production using Flask API on an AWS EC2 instance***.
 
-
-
-- Train-CrossValidation-Test split :arrow_right: Entire dataset was split into 80(train + cross validation):20(test) ratio.
-- Pre-processing the data :arrow_right: All images were divided into Standard Directories so as to be able to use the [Keras ImageDataGenerator class](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
-for Image Augmentation.
-- Choosing Model Architectures :arrow_right: 4 different CNN archiectures were used. 
-- Each of these models were fed with a completely unseen Test set of images and final accuracy was determined on the basis of prediction accuracy.
-- Below table respresents each CNN architecture used and their test accuracies:-
-![Table](https://github.com/toushalipal6991/BrainTumor_Detection/blob/master/AccuracyTable.PNG)
-- Model-4: Transfer Learning for Feature Extraction via VGG16 + Data Augmentation had the highest accuracy of 96.706% and hence, it has been finalized for deployment.
-- API used for Deployment :arrow_right: Flask. This simple web-app (as represented in the Demo) helps you upload the image and predicts whether the MRI scan image fed, contains tumor or not.
-
 ## :file_folder: Libraries Used
-:crayon: matplotlib :crayon: seaborn :crayon: numpy :crayon: pandas :crayon: random :crayon: shutil :crayon: prettytable :crayon: Flask
+:crayon: matplotlib :crayon: seaborn :crayon: numpy :crayon: pandas :crayon: prettytable :crayon: Flask
 
-## :hammer_and_wrench: :toolbox: Tools Used
+## :hammer_and_wrench: :toolbox: Tools and Softwares Used
 - Jupyter Notebook
 - Sublime Text
+- Docker
+- AWS
