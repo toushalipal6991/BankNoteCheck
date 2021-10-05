@@ -4,7 +4,7 @@
 
 ![Demo](https://github.com/toushalipal6991/BankNoteCheck/blob/master/demo.gif)
 
-:round_pushpin: Production URL for availing this app :arrow_right: [Fake Note Detection](http://ec2-18-116-62-214.us-east-2.compute.amazonaws.com:8080/) (Note: This URL can only be availed if I connect to my AWS EC2 instance)
+:round_pushpin: Production URL for availing this app :arrow_right: [Fake Note Detection](http://ec2-3-144-21-212.us-east-2.compute.amazonaws.com:8080/) (Note: This URL can only be availed if I connect to my AWS EC2 instance)
 
 ## Aim of this Project
 - This project aims to classify Counterfeit and Non-Counterfeit Bank Notes using Machine Learning techniques.
